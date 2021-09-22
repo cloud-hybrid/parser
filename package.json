@@ -1,0 +1,22 @@
+{
+    "name":        "Parser",
+    "version":     "0.0.1",
+    "description": "CLI Node-JS Parser",
+    "main":        "Index.js",
+    "scripts":     {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "bin": {
+        "Parser": "Index.js"
+    },
+    "repository":  {
+        "type": "git",
+        "url":  "git+https://github.com/cloud-hybrid/Node-Utility-Parser.git"
+    },
+    "author":      "Jacob B. Sanders",
+    "license":     "MIT",
+    "bugs":        {
+        "url": "https://github.com/cloud-hybrid/Node-Utility-Parser/issues"
+    },
+    "homepage":    "https://github.com/cloud-hybrid/Node-Utility-Parser#readme"
+}
