@@ -1,6 +1,6 @@
 {
     "name": "@cloud-technology/parser",
-    "version": "0.0.2",
+    "version": "0.0.4",
     "description": "Configuration Parser",
     "main": "Index.js",
     "readme": "README.md",
