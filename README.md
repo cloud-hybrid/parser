@@ -1,2 +1,3 @@
-# Parser #
+# @cloud-technology/parser #
 
+Configuration Parser
