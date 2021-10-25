@@ -2,15 +2,19 @@
     "name": "@cloud-technology/parser",
     "version": "0.0.4",
     "description": "Configuration Parser",
-    "main": "Index.js",
+    "main": "index.js",
     "readme": "README.md",
+    "type": "module",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "bin": {
-        "Parser": "Index.js"
+        "Parser": "index.js"
     },
     "repository": "git+https://github.com/cloud-hybrid/parser.git",
     "author": "Jacob B. Sanders",
-    "license": "BSD-3-Clause"
+    "license": "BSD-3-Clause",
+    "dependencies": {
+        "command-line-args": "^*"
+    }
 }
