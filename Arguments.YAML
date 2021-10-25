@@ -1,0 +1,15 @@
+---
+CLI:
+    Primary:
+        test:
+            alias: "t"
+            type: String
+            default: "Hello World"
+        verbose:
+            alias: "v"
+            type: Boolean
+            default: False
+        help:
+            alias: "h"
+            type: Boolean
+            default: False

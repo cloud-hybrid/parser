@@ -1,4 +1,14 @@
+import * as FS from "fs";
+
+import YAML from "yaml";
+
 import { default as CLI } from "command-line-args";
+
+const Document = FS.readFileSync("Arguments.YAML", "UTF-8");
+
+const Configuration = JSON.stringify(YAML.parse(Document), null, 4);
+
+console.debug("YAML Configuration" + ":", Configuration + "\n");
 
 const options = [
     { name: "test", group: "main", alias: "t", type: String, defaultValue: "Hello World"},
@@ -16,7 +26,7 @@ const options = [
 const main = () => {
     const $ = CLI(options);
 
-    console.log($);
+    console.debug("CLI Arguments" + ":", JSON.stringify($.main, null, 4) + "\n");
 };
 
 main();
